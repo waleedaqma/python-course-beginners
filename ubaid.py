@@ -1,3 +1,3 @@
-print("Hello, Brothers!")
-print("Why we are learning python!")
-print("My Age is 18")
+print("Hey im ubaid. how are you all")
+print("dont give up until you die!")
+print("18 : 89")
