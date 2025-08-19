@@ -1,3 +1,3 @@
-print("Hello, World!")
-print("Welcome to Python!")
-print("I'm excited to learn programming!")
+print("qasim!")
+print("32 !")
+print("9!")
