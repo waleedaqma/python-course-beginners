@@ -1,3 +1,3 @@
-print("qasim!")
-print("32 !")
-print("9!")
+print("my name is qasim!"how are you?)
+print("i love python!")
+print("my age 32!"my favorite number is 9!")
