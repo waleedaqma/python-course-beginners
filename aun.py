@@ -1,3 +1,7 @@
-print("My name is Aun ali, how are you?")
-print("I love python programming!")
-print("My age is 19! My favorite number is 7.")
+
+user_name = input("What's your name? ")
+print("Hello, " + user_name + "!")
+user_hobby = input("What is your favorite hobby? ")
+print("Your favorite hobby is " + user_hobby + ".")
+user_city = input("Which city do you live in? ")
+print("You live in " + user_city + ".")
