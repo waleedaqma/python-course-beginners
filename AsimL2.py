@@ -1,8 +1,9 @@
-user_name = input("what is your name ?")
-print( user_name + ".")
+user_name = "asim"
+user_hobby = "singing"
+user_city = "Lahore"
 
-user_hobby = input("what is your favorate hobby?")
-print(user_hobby)
 
-user_city = input("what is your current city?")
-print(user_city)
+
+
+print("hello " + user_name + "!")
+print(user_name + " loves to " + user_hobby + " in " + user_city)
