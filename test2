@@ -1,0 +1,28 @@
+Junior Developer Challenge: Python Basics
+Objective: To demonstrate your understanding of variables, user input, and basic string manipulation in Python.
+
+Instructions: Create a Python script that performs the following tasks. Please include comments to explain what each part of your code does.
+
+Greeting and Information Gathering:
+
+Ask the user for their name and store it in a variable called user_name.
+
+Ask the user for their favorite hobby and store it in a variable called user_hobby.
+
+Ask the user for their current city and store it in a variable called user_city.
+
+Displaying the Information:
+
+Print a personalized greeting to the user using their name. For example: "Hello, [user_name]!"
+
+Create a sentence that combines all the information you've gathered. The sentence should follow this structure: "[user_name] loves to [user_hobby] in [user_city]."
+
+Print the complete sentence to the console.
+
+Example Output:
+
+What is your name? Sarah
+What is your favorite hobby? coding
+What is your current city? New York
+Hello, Sarah!
+Sarah loves to coding in New York.
