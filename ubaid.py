@@ -1,3 +1,6 @@
-print("Hey im ubaid. how are you all")
-print("dont give up until you die!")
-print("18 : 89")
+name = input("whats your name: ")
+hobby = input("whats your hobby: ")
+place = input("whats favourite place: ",)
+
+print("hello" + name)
+print(name + " loves to do " + hobby + " in " + place)
