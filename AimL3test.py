@@ -3,4 +3,4 @@ student_age = int(input("enter your age" ))
 Total_marks = float(input("enter total marks "))
 obtained_marks = float(input("enter your obtained marks"))
 
-persntage
+percentage = Total_marks / obtained_marks * 100
