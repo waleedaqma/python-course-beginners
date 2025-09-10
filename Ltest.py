@@ -1,7 +1,10 @@
 name = input("what's your name? ")
+  name.isalpha()
+
+ 
 age = input("how old are you? ")
 total_marks = int(input("total_marks? "))
-obtain_marks = int(input("obtain_marks "))
+obtain_marks = int(input("obtain_marks? "))
 
 percentage = (obtain_marks / total_marks) *100 
 
@@ -12,9 +15,11 @@ print("total_marks:", total_marks)
 print("obtain_marks:", obtain_marks)
 print("percentage:", percentage, "%")
 
-if   percentage <= 20:
-     print("fail")
+          
+if   percentage <= 50:
+     print("fail") 
 elif percentage <=50:
-     print("grade") 
+     print("exilent") 
 else:
-     print("goood")  
+     print("sound's good")
+
