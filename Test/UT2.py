@@ -16,3 +16,5 @@ print("Your age: ", age)
 print("Your Favorite Number: ", favorite_number)
 
 print("your age next year will be: ", (age + 1))
+print("Favorite Number X 2: ", (favorite_number * 2))
+
