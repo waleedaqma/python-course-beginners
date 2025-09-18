@@ -20,3 +20,5 @@ print("Favorite Number X 2: ", (favorite_number * 2))
 
 if age < 18:
     print("You're still a teenager!")
+elif age < 65:
+    print("You're in your prime working years!")
