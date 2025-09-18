@@ -14,3 +14,5 @@ print("Lesson Number: ", lesson_number)
 print("Welcome: ", name)
 print("Your age: ", age)
 print("Your Favorite Number: ", favorite_number)
+
+print("your age next year will be: ", (age + 1))
