@@ -9,3 +9,4 @@ favorite_number = int(input("whats your favorite number? "))
 print("\n==== code result ====")
 
 print("Cource name: ", course_name)
+print("Lesson Number: ", lesson_number)
