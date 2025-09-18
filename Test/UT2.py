@@ -10,3 +10,7 @@ print("\n==== code result ====")
 
 print("Cource name: ", course_name)
 print("Lesson Number: ", lesson_number)
+
+print("Welcome: ", name)
+print("Your age: ", age)
+print("Your Favorite Number: ", favorite_number)
