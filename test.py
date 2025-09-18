@@ -1,10 +1,8 @@
 name = input("what's your name? ")
+age = int(input("your age is? "))
 if not name.isalpha():
     print("Invalid name! Only alphabets (A–Z) allowed.")
-
     name = input("what's your name? ")
-
-age = int(input("your age is? "))
 
 total_marks = int(input("total_marks? "))
 obtain_marks = int(input("obtain_marks? "))

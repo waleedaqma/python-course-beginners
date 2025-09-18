@@ -1,1 +1,0 @@
-print("Why Type When You Can Copy Paste!")

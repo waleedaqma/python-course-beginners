@@ -1,8 +1,11 @@
-User_name = input("what is your name?")
-print(User_name)
-User_hobby = input("what is your favoritr hobby?")
-print(User_hobby)
-User_city = input("what is your current city?")
-print(User_city)
-print("Hello"+ User_name)
-print(User_name +  " love to " + User_hobby + " in " + User_city)
+file = open("qasiml2.py", "r")
+data = file.read()
+print(data)
+
+with open("qasiml2.py", "r") as file:
+    for line in file:
+        print(line.strip()) 
+with open("qasiml2.py", "r") as file:
+    lines = file.readlines()
+
+print(lines)  

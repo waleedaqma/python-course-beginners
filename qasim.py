@@ -11,5 +11,5 @@ class Student:
 
 si = Student("Qasim Shah", [99, 98, 97])  
 si.get_avg()
-si.name = "Raza"
-si.get_avg()
+si.name = "Ali"
+si.get_avg()    
