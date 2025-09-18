@@ -7,3 +7,5 @@ age = int(input("whats your age? "))
 favorite_number = int(input("whats your favorite number? "))
 
 print("\n==== code result ====")
+
+print("Cource name: ", course_name)
