@@ -1,11 +1,23 @@
-course_name = "python basics"
-lesson_number = 2
-is_fun = True
-name = input("what is your name? ")
-age = int(input("how old are you? ")
-favoritse_number = int(input("what is your favorite number? ")
-print(f"hello {name}, you are {age} years old and your favorite number is {favoritse_number}")
-if age >= 18:
-    print("you're still a teenager")
-    if age >= 65:
-        print("you're in your prime  ")
+class Account:
+    def __init__(self, balance, acc):
+        self.balance = balance
+        self.account_number = acc
+
+    def deposit(self, amount):
+        self.balance += amount
+        print("Rs", amount, "was deposited")
+        print("total balance =", self.get_balance())
+
+    def credit(self, amount):
+        self.balance += amount
+        print("Rs", amount, "was credited")
+        print("total balance =", self.get_balance()) 
+
+    def get_balance(self):
+        return self.balance
+
+
+acc1 = Account(1000, "12345")
+acc1.deposit(500)   
+acc1.credit(200)    
+acc1.get_balance()        
