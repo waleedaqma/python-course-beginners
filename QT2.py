@@ -9,7 +9,7 @@ class Account:
         print("total balance =", self.get_balance())
 
     def credit(self, amount):
-        self.balance += amount
+        self.balance -= amount
         print("Rs", amount, "was credited")
         print("total balance =", self.get_balance()) 
 
