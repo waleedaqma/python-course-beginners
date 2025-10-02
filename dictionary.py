@@ -9,4 +9,5 @@ info = {
 
 print(info["name"])
 print(info["subjects"])
+print(info["topics"])
 print(info["age"])
